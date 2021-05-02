@@ -1,0 +1,90 @@
+C:\Users\DELL\source\repos\qlquancf\qlquancf\bin\Debug\qlquancf.exe.config
+C:\Users\DELL\source\repos\qlquancf\qlquancf\bin\Debug\qlquancf.exe
+C:\Users\DELL\source\repos\qlquancf\qlquancf\bin\Debug\qlquancf.pdb
+C:\Users\DELL\source\repos\qlquancf\qlquancf\obj\Debug\qlquancf.fLogin.resources
+C:\Users\DELL\source\repos\qlquancf\qlquancf\obj\Debug\qlquancf.Properties.Resources.resources
+C:\Users\DELL\source\repos\qlquancf\qlquancf\obj\Debug\qlquancf.csproj.GenerateResource.cache
+C:\Users\DELL\source\repos\qlquancf\qlquancf\obj\Debug\qlquancf.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\qlquancf\qlquancf\obj\Debug\qlquancf.exe
+C:\Users\DELL\source\repos\qlquancf\qlquancf\obj\Debug\qlquancf.pdb
+C:\Users\letie\OneDrive\Documents\New folder\qlquancf\bin\Debug\qlquancf.exe.config
+C:\Users\letie\OneDrive\Documents\New folder\qlquancf\bin\Debug\qlquancf.exe
+C:\Users\letie\OneDrive\Documents\New folder\qlquancf\bin\Debug\qlquancf.pdb
+C:\Users\letie\OneDrive\Documents\New folder\qlquancf\obj\Debug\qlquancf.csprojAssemblyReference.cache
+C:\Users\letie\OneDrive\Documents\New folder\qlquancf\obj\Debug\qlquancf.fLogin.resources
+C:\Users\letie\OneDrive\Documents\New folder\qlquancf\obj\Debug\qlquancf.Properties.Resources.resources
+C:\Users\letie\OneDrive\Documents\New folder\qlquancf\obj\Debug\qlquancf.csproj.GenerateResource.cache
+C:\Users\letie\OneDrive\Documents\New folder\qlquancf\obj\Debug\qlquancf.csproj.CoreCompileInputs.cache
+C:\Users\letie\OneDrive\Documents\New folder\qlquancf\obj\Debug\qlquancf.exe
+C:\Users\letie\OneDrive\Documents\New folder\qlquancf\obj\Debug\qlquancf.pdb
+C:\Users\letie\OneDrive\Documents\New folder\qlquancf\obj\Debug\qlquancf.fAccountProfile.resources
+C:\Users\letie\OneDrive\Documents\New folder\qlquancf\obj\Debug\qlquancf.fTableManager.resources
+C:\Users\letie\OneDrive\Documents\New folder\qlquancf\obj\Debug\qlquancf.fAdmin.resources
+D:\Hutech\Lập trình Windows\doanmonhoc\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\qlquancf.exe.config
+D:\Hutech\Lập trình Windows\doanmonhoc\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\qlquancf.exe
+D:\Hutech\Lập trình Windows\doanmonhoc\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\qlquancf.pdb
+D:\Hutech\Lập trình Windows\doanmonhoc\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.csprojAssemblyReference.cache
+D:\Hutech\Lập trình Windows\doanmonhoc\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.fAccountProfile.resources
+D:\Hutech\Lập trình Windows\doanmonhoc\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.fAdmin.resources
+D:\Hutech\Lập trình Windows\doanmonhoc\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.fLogin.resources
+D:\Hutech\Lập trình Windows\doanmonhoc\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.fTableManager.resources
+D:\Hutech\Lập trình Windows\doanmonhoc\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.Properties.Resources.resources
+D:\Hutech\Lập trình Windows\doanmonhoc\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.csproj.GenerateResource.cache
+D:\Hutech\Lập trình Windows\doanmonhoc\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.csproj.CoreCompileInputs.cache
+D:\Hutech\Lập trình Windows\doanmonhoc\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.exe
+D:\Hutech\Lập trình Windows\doanmonhoc\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.pdb
+D:\Hutech\Lập trình Windows\doanmonhoc\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\EntityFramework.dll
+D:\Hutech\Lập trình Windows\doanmonhoc\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\EntityFramework.SqlServer.dll
+D:\Hutech\Lập trình Windows\doanmonhoc\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\EntityFramework.xml
+D:\Hutech\Lập trình Windows\doanmonhoc\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\EntityFramework.SqlServer.xml
+D:\Hutech\Lập trình Windows\doanmonhoc\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.csproj.CopyComplete
+D:\Hutech\Lập trình Windows\doanmonhoc\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Hutech\Lập trình Windows\doanmonhoc\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\Hutech\Lập trình Windows\doanmonhoc\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+D:\Hutech\Lập trình Windows\doanmonhoc\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Hutech\Lập trình Windows\doanmonhoc\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\DOANMONHOC\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\qlquancf.exe.config
+C:\DOANMONHOC\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\qlquancf.exe
+C:\DOANMONHOC\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\qlquancf.pdb
+C:\DOANMONHOC\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\EntityFramework.dll
+C:\DOANMONHOC\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\EntityFramework.SqlServer.dll
+C:\DOANMONHOC\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\DOANMONHOC\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\DOANMONHOC\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\Microsoft.ReportViewer.WebForms.dll
+C:\DOANMONHOC\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\EntityFramework.xml
+C:\DOANMONHOC\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\EntityFramework.SqlServer.xml
+C:\DOANMONHOC\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\DOANMONHOC\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.csprojAssemblyReference.cache
+C:\DOANMONHOC\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.fAccountProfile.resources
+C:\DOANMONHOC\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.fAdmin.resources
+C:\DOANMONHOC\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.fLogin.resources
+C:\DOANMONHOC\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.fTableManager.resources
+C:\DOANMONHOC\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.Properties.Resources.resources
+C:\DOANMONHOC\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.csproj.GenerateResource.cache
+C:\DOANMONHOC\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.csproj.CoreCompileInputs.cache
+C:\DOANMONHOC\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.csproj.CopyComplete
+C:\DOANMONHOC\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.exe
+C:\DOANMONHOC\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.pdb
+D:\java\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\qlquancf.exe.config
+D:\java\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\qlquancf.exe
+D:\java\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\qlquancf.pdb
+D:\java\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\EntityFramework.dll
+D:\java\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\EntityFramework.SqlServer.dll
+D:\java\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\java\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\java\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\Microsoft.ReportViewer.WebForms.dll
+D:\java\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\EntityFramework.xml
+D:\java\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\EntityFramework.SqlServer.xml
+D:\java\Quán Lý Quán Cà Phê Rooftop\qlquancf\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+D:\java\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.csprojAssemblyReference.cache
+D:\java\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.fAccountProfile.resources
+D:\java\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.fAdmin.resources
+D:\java\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.fLogin.resources
+D:\java\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.fTableManager.resources
+D:\java\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.Properties.Resources.resources
+D:\java\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.csproj.GenerateResource.cache
+D:\java\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.csproj.CoreCompileInputs.cache
+D:\java\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.csproj.CopyComplete
+D:\java\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.exe
+D:\java\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.pdb
+D:\java\Quán Lý Quán Cà Phê Rooftop\qlquancf\obj\Debug\qlquancf.lichsu.resources
