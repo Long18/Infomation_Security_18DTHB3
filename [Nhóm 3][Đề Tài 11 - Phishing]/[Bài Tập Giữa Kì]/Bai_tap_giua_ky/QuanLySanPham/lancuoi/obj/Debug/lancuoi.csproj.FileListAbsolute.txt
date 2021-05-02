@@ -1,0 +1,41 @@
+E:\baomat\lancuoi\lancuoi\bin\Debug\lancuoi.exe.config
+E:\baomat\lancuoi\lancuoi\bin\Debug\lancuoi.exe
+E:\baomat\lancuoi\lancuoi\bin\Debug\lancuoi.pdb
+E:\baomat\lancuoi\lancuoi\obj\Debug\lancuoi.csprojAssemblyReference.cache
+E:\baomat\lancuoi\lancuoi\obj\Debug\lancuoi.Properties.Resources.resources
+E:\baomat\lancuoi\lancuoi\obj\Debug\lancuoi.csproj.GenerateResource.cache
+E:\baomat\lancuoi\lancuoi\obj\Debug\lancuoi.csproj.CoreCompileInputs.cache
+E:\baomat\lancuoi\lancuoi\obj\Debug\lancuoi.exe
+E:\baomat\lancuoi\lancuoi\obj\Debug\lancuoi.pdb
+E:\baomat\lancuoi\lancuoi\obj\Debug\lancuoi.Form1.resources
+E:\baomat\lancuoi\lancuoi\bin\Debug\EntityFramework.dll
+E:\baomat\lancuoi\lancuoi\bin\Debug\EntityFramework.SqlServer.dll
+E:\baomat\lancuoi\lancuoi\bin\Debug\EntityFramework.xml
+E:\baomat\lancuoi\lancuoi\bin\Debug\EntityFramework.SqlServer.xml
+E:\baomat\lancuoi\lancuoi\obj\Debug\lancuoi.dangki.resources
+E:\baomat\lancuoi\lancuoi\obj\Debug\lancuoi.csproj.CopyComplete
+E:\baomat\lancuoi\lancuoi\obj\Debug\lancuoi.Trangchu.resources
+E:\baomat\lancuoi\lancuoi\obj\Debug\lancuoi.dangnhapadmin.resources
+E:\baomat\lancuoi\lancuoi\obj\Debug\lancuoi.doimatkhau.resources
+E:\baomat\lancuoi\lancuoi\obj\Debug\lancuoi.quanlinhanvien.resources
+E:\cua nghia\lancuoi\lancuoi\obj\Debug\lancuoi.exe
+E:\cua nghia\lancuoi\lancuoi\obj\Debug\lancuoi.pdb
+E:\cua nghia\lancuoi\lancuoi\obj\Debug\lancuoi.dangki.resources
+E:\cua nghia\lancuoi\lancuoi\obj\Debug\lancuoi.dangnhapadmin.resources
+E:\cua nghia\lancuoi\lancuoi\obj\Debug\lancuoi.Properties.Resources.resources
+E:\cua nghia\lancuoi\lancuoi\obj\Debug\lancuoi.quanlinhanvien.resources
+E:\cua nghia\lancuoi\lancuoi\obj\Debug\lancuoi.Trangchu.resources
+E:\cua nghia\lancuoi\lancuoi\obj\Debug\lancuoi.csproj.GenerateResource.cache
+E:\cua nghia\lancuoi\lancuoi\obj\Debug\lancuoi.csproj.CoreCompileInputs.cache
+E:\cua nghia\lancuoi\lancuoi\bin\Debug\lancuoi.exe.config
+E:\cua nghia\lancuoi\lancuoi\bin\Debug\lancuoi.exe
+E:\cua nghia\lancuoi\lancuoi\bin\Debug\lancuoi.pdb
+E:\cua nghia\lancuoi\lancuoi\bin\Debug\EntityFramework.dll
+E:\cua nghia\lancuoi\lancuoi\bin\Debug\EntityFramework.SqlServer.dll
+E:\cua nghia\lancuoi\lancuoi\bin\Debug\EntityFramework.xml
+E:\cua nghia\lancuoi\lancuoi\bin\Debug\EntityFramework.SqlServer.xml
+E:\cua nghia\lancuoi\lancuoi\obj\Debug\lancuoi.doimatkhau2.resources
+E:\cua nghia\lancuoi\lancuoi\obj\Debug\lancuoi.csproj.CopyComplete
+E:\cua nghia\lancuoi\lancuoi\obj\Debug\lancuoi.Quanlyphongban.resources
+E:\cua nghia\lancuoi\lancuoi\obj\Debug\lancuoi.csprojAssemblyReference.cache
+E:\cua nghia\lancuoi\lancuoi\obj\Debug\lancuoi.login.resources
