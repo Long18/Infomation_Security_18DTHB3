@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="QuanLyCafe.DAO.AccountAdminDAO">
+    <Position X="2.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAABAABAABCAAAAQAAQAAAgAAA=</HashCode>
+      <FileName>DAO\AccountAdminDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyCafe.DAO.DayWorkDAO">
+    <Position X="7.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABEAAAQQAAEAAAAAAA=</HashCode>
+      <FileName>DAO\DayWorkDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyCafe.DAO.DrinkDAO">
+    <Position X="4.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAEAAAACBAAACABAAAAASAAAAEAAAAA=</HashCode>
+      <FileName>DAO\DrinkDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyCafe.DAO.StaffDAO">
+    <Position X="6" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAggAAAAAAAEAABAAAAAQAAAAACAAAA=</HashCode>
+      <FileName>DAO\StaffDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyCafe.DTO.AccountAdmin">
+    <Position X="2.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAEAAAAAAAAAACAIAAEQAAAAAAAAAAAAAgAAAoA=</HashCode>
+      <FileName>DTO\AccountAdmin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyCafe.DTO.Bill">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>DTO\Bill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyCafe.DTO.DayWork">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASAAAAAAAAAAAAAAACAAAAAgAAAAAAAAAAgAAAAgA=</HashCode>
+      <FileName>DTO\DayWork.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyCafe.DTO.DayWorkStaff">
+    <Position X="4.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACACAAAAAgAAAAACAAAAQAAAAEAAAAACAAAAAAAgA=</HashCode>
+      <FileName>DTO\DayWorkStaff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyCafe.DTO.Drink">
+    <Position X="6" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAEAAAgAAAAACAAAAAAAAAAAAIABAAAACIAAgA=</HashCode>
+      <FileName>DTO\Drink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyCafe.DTO.Staff">
+    <Position X="9.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGAAAAAAAAgAAAAIAAAAQAAAIEAAACAAAAAAAABgA=</HashCode>
+      <FileName>DTO\Staff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
