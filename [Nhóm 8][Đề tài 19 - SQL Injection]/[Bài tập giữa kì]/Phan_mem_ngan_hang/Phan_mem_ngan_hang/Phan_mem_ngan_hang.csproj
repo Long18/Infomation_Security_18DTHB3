@@ -1,0 +1,463 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{807792A3-901A-495A-AE34-72392077C1F6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Phan_mem_ngan_hang</RootNamespace>
+    <AssemblyName>Phan_mem_ngan_hang</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.2.0.35\lib\net461\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v20.1" />
+    <Reference Include="DevExpress.Charts.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.Desktop.v20.1" />
+    <Reference Include="DevExpress.Data.v20.1" />
+    <Reference Include="DevExpress.DataAccess.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Mvvm.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v20.1.Export, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v20.1" />
+    <Reference Include="DevExpress.Sparkline.v20.1.Core" />
+    <Reference Include="DevExpress.Utils.v20.1.UI, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpf.Core.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpo.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v20.1" />
+    <Reference Include="DevExpress.Printing.v20.1.Core" />
+    <Reference Include="DevExpress.XtraGauges.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v20.1.Extensions, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="btn_Themkhachhang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="btn_Themkhachhang.Designer.cs">
+      <DependentUpon>btn_Themkhachhang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="btn_TimKiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="btn_TimKiem.Designer.cs">
+      <DependentUpon>btn_TimKiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="btn_timkiemNhanvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="btn_timkiemNhanvien.Designer.cs">
+      <DependentUpon>btn_timkiemNhanvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="checklog.cs" />
+    <Compile Include="CHINHANH.cs" />
+    <Compile Include="Classthongtin.cs" />
+    <Compile Include="Dang_Nhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dang_Nhap.Designer.cs">
+      <DependentUpon>Dang_Nhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Danhsachchinhanhcongty.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Danhsachchinhanhcongty.Designer.cs">
+      <DependentUpon>Danhsachchinhanhcongty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DBcontext.cs" />
+    <Compile Include="DoiMatKhau.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DoiMatKhau.Designer.cs">
+      <DependentUpon>DoiMatKhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DsKhachHang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DsKhachHang.Designer.cs">
+      <DependentUpon>DsKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dsNhanVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="dsNhanVien.Designer.cs">
+      <DependentUpon>dsNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formgiaodich.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="formgiaodich.Designer.cs">
+      <DependentUpon>formgiaodich.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_Admin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="form_Admin.Designer.cs">
+      <DependentUpon>form_Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_giamsatcuaadmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_giamsatcuaadmin.Designer.cs">
+      <DependentUpon>Form_giamsatcuaadmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmThemtkn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThemtkn.Designer.cs">
+      <DependentUpon>frmThemtkn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GIAODICH.cs" />
+    <Compile Include="Giaodien01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giaodien01.Designer.cs">
+      <DependentUpon>Giaodien01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Giao_Dien.cs" />
+    <Compile Include="Giao_Dien.Designer.cs">
+      <DependentUpon>Giao_Dien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KHACHHANG.cs" />
+    <Compile Include="LOAIGIAODICH.cs" />
+    <Compile Include="MD5.cs" />
+    <Compile Include="NHANVIEN.cs" />
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\Phan_mem_ngan_hang_Content.g.i.cs" />
+    <Compile Include="obj\Debug\ThemedSplashScreen\ThemedSplashScreen1.g.i.cs" />
+    <Compile Include="PHONGBAN.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rpPhieuHen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rpPhieuHen.Designer.cs">
+      <DependentUpon>rpPhieuHen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TAIKHOAN.cs" />
+    <Compile Include="Them_NV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Them_NV.Designer.cs">
+      <DependentUpon>Them_NV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thongtincanhan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Thongtincanhan.Designer.cs">
+      <DependentUpon>Thongtincanhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trangchu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Trangchu.Designer.cs">
+      <DependentUpon>Trangchu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XtraUserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XtraUserControl1.Designer.cs">
+      <DependentUpon>XtraUserControl1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="btn_Themkhachhang.resx">
+      <DependentUpon>btn_Themkhachhang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="btn_TimKiem.resx">
+      <DependentUpon>btn_TimKiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="btn_timkiemNhanvien.resx">
+      <DependentUpon>btn_timkiemNhanvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dang_Nhap.resx">
+      <DependentUpon>Dang_Nhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Danhsachchinhanhcongty.resx">
+      <DependentUpon>Danhsachchinhanhcongty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoiMatKhau.resx">
+      <DependentUpon>DoiMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DsKhachHang.resx">
+      <DependentUpon>DsKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dsNhanVien.resx">
+      <DependentUpon>dsNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formgiaodich.resx">
+      <DependentUpon>formgiaodich.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_Admin.resx">
+      <DependentUpon>form_Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_giamsatcuaadmin.resx">
+      <DependentUpon>Form_giamsatcuaadmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThemtkn.resx">
+      <DependentUpon>frmThemtkn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Giaodien01.resx">
+      <DependentUpon>Giaodien01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Giao_Dien.resx">
+      <DependentUpon>Giao_Dien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\Phan_mem_ngan_hang.btn_Themkhachhang.resources" />
+    <EmbeddedResource Include="obj\Debug\Phan_mem_ngan_hang.btn_TimKiem.resources" />
+    <EmbeddedResource Include="obj\Debug\Phan_mem_ngan_hang.btn_timkiemNhanvien.resources" />
+    <EmbeddedResource Include="obj\Debug\Phan_mem_ngan_hang.Dang_Nhap_Nhan_Vien.resources" />
+    <EmbeddedResource Include="obj\Debug\Phan_mem_ngan_hang.Danhsachchinhanhcongty.resources" />
+    <EmbeddedResource Include="obj\Debug\Phan_mem_ngan_hang.DoiMatKhau.resources" />
+    <EmbeddedResource Include="obj\Debug\Phan_mem_ngan_hang.DsKhachHang.resources" />
+    <EmbeddedResource Include="obj\Debug\Phan_mem_ngan_hang.dsNhanVien.resources" />
+    <EmbeddedResource Include="obj\Debug\Phan_mem_ngan_hang.formgiaodich.resources" />
+    <EmbeddedResource Include="obj\Debug\Phan_mem_ngan_hang.Giao_Dien.resources" />
+    <EmbeddedResource Include="obj\Debug\Phan_mem_ngan_hang.Properties.Resources.resources" />
+    <EmbeddedResource Include="obj\Debug\Phan_mem_ngan_hang.rpPhieuHen.resources" />
+    <EmbeddedResource Include="obj\Debug\Phan_mem_ngan_hang.Them_NV.resources" />
+    <EmbeddedResource Include="obj\Debug\Phan_mem_ngan_hang.Thongtincanhan.resources" />
+    <EmbeddedResource Include="obj\Debug\Phan_mem_ngan_hang.Trangchu.resources" />
+    <EmbeddedResource Include="obj\Debug\Phan_mem_ngan_hang.XtraUserControl1.resources" />
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="rpPhieuHen.resx">
+      <DependentUpon>rpPhieuHen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Them_NV.resx">
+      <DependentUpon>Them_NV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thongtincanhan.resx">
+      <DependentUpon>Thongtincanhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trangchu.resx">
+      <DependentUpon>Trangchu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XtraUserControl1.resx">
+      <DependentUpon>XtraUserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="filehelp\DoAnNganHang.chm" />
+    <None Include="filehelp\huongdansudungphanmem.chm" />
+    <None Include="obj\Debug\build.force" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\Phan_mem_ngan_hang.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\Phan_mem_ngan_hang.csproj.GenerateResource.cache" />
+    <None Include="obj\Debug\Phan_mem_ngan_hang.csprojAssemblyReference.cache" />
+    <None Include="obj\Debug\Phan_mem_ngan_hang_MarkupCompile.i.cache" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\Classthongtin.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh-nen-powerpoint-3d-dep-nhat_013309422.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hinh-nen-3d_013310637.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20150505083449-2115.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z2177129791033_5351bfbea34ae50da165738119c79a41.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-powerpoint-cong-nghe-15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-powerpoint-cong-nghe-27.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hinh-nen-3d_0133106371.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-powerpoint-cong-nghe-13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-powerpoint-cong-nghe-3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-powerpoint-cong-nghe-42.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z2178650689487_5409523786a727c7431fa5c3b5479327.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-chu-de-cong-nghe_120716585.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-dep-nhat_120717570.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-powerpoint-cong-nghe-49-scaled.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-dep-danh-cho-power-point_120717382.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-powerpoint-cong-nghe-14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-xanh-dep_120725070.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-powerpoint-cong-nghe-131.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-powerpoint-cong-nghe-49-scaled1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z2178650689487_5409523786a727c7431fa5c3b54793271.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\de\" />
+    <Folder Include="bin\Debug\es\" />
+    <Folder Include="bin\Debug\ja\" />
+    <Folder Include="bin\Debug\ru\" />
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Resources\20150505083449-2115.jpg" />
+    <Content Include="bin\Debug\Resources\anh-nen-powerpoint-3d-dep-nhat_013309422.jpg" />
+    <Content Include="bin\Debug\Resources\background-chu-de-cong-nghe_120716585.png" />
+    <Content Include="bin\Debug\Resources\background-dep-danh-cho-power-point_120717382.png" />
+    <Content Include="bin\Debug\Resources\background-dep-nhat_120717570.png" />
+    <Content Include="bin\Debug\Resources\background-powerpoint-cong-nghe-13.jpg" />
+    <Content Include="bin\Debug\Resources\background-powerpoint-cong-nghe-131.jpg" />
+    <Content Include="bin\Debug\Resources\background-powerpoint-cong-nghe-14.jpg" />
+    <Content Include="bin\Debug\Resources\background-powerpoint-cong-nghe-15.jpg" />
+    <Content Include="bin\Debug\Resources\background-powerpoint-cong-nghe-27.jpg" />
+    <Content Include="bin\Debug\Resources\background-powerpoint-cong-nghe-3.jpg" />
+    <Content Include="bin\Debug\Resources\background-powerpoint-cong-nghe-42.jpg" />
+    <Content Include="bin\Debug\Resources\background-powerpoint-cong-nghe-49-scaled.jpg" />
+    <Content Include="bin\Debug\Resources\background-powerpoint-cong-nghe-49-scaled1.jpg" />
+    <Content Include="bin\Debug\Resources\background-xanh-dep_120725070.png" />
+    <Content Include="bin\Debug\Resources\hinh-nen-3d_013310637.jpg" />
+    <Content Include="bin\Debug\Resources\hinh-nen-3d_0133106371.jpg" />
+    <Content Include="bin\Debug\Resources\unnamed.jpg" />
+    <Content Include="bin\Debug\Resources\z2177129791033_5351bfbea34ae50da165738119c79a41.jpg" />
+    <Content Include="bin\Debug\Resources\z2178650689487_5409523786a727c7431fa5c3b5479327.jpg" />
+    <Content Include="obj\Debug\Phan_mem_ngan_hang.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\phan_mem_ngan_hang.exe.licenses" />
+    <Content Include="obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <None Include="Resources\Bg-verification-of-employees-cvs.png" />
+    <None Include="Resources\images1.jfif" />
+    <None Include="Resources\images.jfif" />
+    <None Include="Resources\202005081841474476-53b69c422220bc2bf60d1eb70fd98f41.png" />
+    <None Include="Resources\IT.jpg" />
+    <None Include="Resources\background-powerpoint-cong-nghe-17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
